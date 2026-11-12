@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL, REPO_URL } from '../constants';
+import { CONTACT_EMAIL, REPO_URL, SITE_URL } from '../constants';
 import { useI18n } from '../i18n';
 import { Icon } from './Icon';
 import { Logo } from './Logo';
@@ -12,6 +12,10 @@ export function Footer() {
         <span>{t('footer.made')}</span>
       </div>
       <nav className="footer__links" aria-label={t('app.title')}>
+        <a href={SITE_URL} target="_blank" rel="noreferrer noopener">
+          <Icon name="globe" size={15} />
+          {t('footer.website')}
+        </a>
         <a href={REPO_URL} target="_blank" rel="noreferrer noopener">
           <Icon name="github" size={15} />
           {t('footer.github')}

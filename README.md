@@ -15,6 +15,8 @@ no telemetry.
 
 **Live demo:** https://noxaplus-star.github.io/noxaplus-subtitle-studio/
 
+**Official website:** https://www.noxaplus.ir
+
 ![NoxaPlus Subtitle Studio editor in Persian](docs/screenshots/editor-dark-fa.png)
 
 ## Highlights
@@ -299,6 +301,7 @@ license applies to the source code.
 ## Contact
 
 - **NoxaPlus** — [NoxaPlus2025@gmail.com](mailto:NoxaPlus2025@gmail.com)
+- Official website: [www.noxaplus.ir](https://www.noxaplus.ir)
 - GitHub: [@noxaplus-star](https://github.com/noxaplus-star)
 - Repository: [noxaplus-star/noxaplus-subtitle-studio](https://github.com/noxaplus-star/noxaplus-subtitle-studio)
 

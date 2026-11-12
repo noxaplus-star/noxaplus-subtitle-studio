@@ -1,4 +1,4 @@
-import { APP_VERSION, CONTACT_EMAIL, REPO_URL } from '../constants';
+import { APP_VERSION, CONTACT_EMAIL, REPO_URL, SITE_URL } from '../constants';
 import { useI18n, type TranslationKey } from '../i18n';
 import { Icon } from './Icon';
 import { Modal } from './Modal';
@@ -81,6 +81,11 @@ export function HelpDialog({ onClose }: HelpDialogProps) {
 
       <div className="help-meta">
         <span className="chip">{t('help.version', { version: APP_VERSION })}</span>
+        <a className="help-meta__link" href={SITE_URL} target="_blank" rel="noreferrer noopener">
+          <Icon name="globe" size={14} />
+          {t('help.website')}
+          <Icon name="external" size={12} />
+        </a>
         <a className="help-meta__link" href={`mailto:${CONTACT_EMAIL}`}>
           <Icon name="mail" size={14} />
           {CONTACT_EMAIL.replace('@', '\u200B@')}

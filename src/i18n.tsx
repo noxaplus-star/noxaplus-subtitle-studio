@@ -242,6 +242,7 @@ const en = {
   'help.version': 'Version {version}',
   'help.contact': 'Contact',
   'help.github': 'View on GitHub',
+  'help.website': 'Official website',
 
   'toast.dismiss': 'Dismiss',
 
@@ -255,6 +256,7 @@ const en = {
   'footer.made': 'Crafted by NoxaPlus',
   'footer.license': 'MIT License',
   'footer.github': 'GitHub',
+  'footer.website': 'NoxaPlus.ir',
   'footer.privacy': 'Privacy',
 
   'common.close': 'Close',
@@ -511,6 +513,7 @@ const fa: Record<TranslationKey, string> = {
   'help.version': 'نسخه {version}',
   'help.contact': 'تماس',
   'help.github': 'مشاهده در گیت‌هاب',
+  'help.website': 'وب‌سایت رسمی',
 
   'toast.dismiss': 'بستن',
 
@@ -524,6 +527,7 @@ const fa: Record<TranslationKey, string> = {
   'footer.made': 'ساخته‌شده با دقت توسط NoxaPlus',
   'footer.license': 'مجوز MIT',
   'footer.github': 'گیت‌هاب',
+  'footer.website': 'وب‌سایت NoxaPlus',
   'footer.privacy': 'حریم خصوصی',
 
   'common.close': 'بستن',
