@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="NoxaPlus">
+  <defs>
+    <linearGradient id="mbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#141a24" />
+      <stop offset="1" stop-color="#0b0d12" />
+    </linearGradient>
+    <linearGradient id="maccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd166" />
+      <stop offset="1" stop-color="#f59e0b" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#mbg)" />
+  <g transform="translate(76 76) scale(0.703125)">
+    <path d="M206 172 340 256 206 340Z" fill="url(#maccent)" />
+    <rect x="112" y="372" width="288" height="24" rx="12" fill="#eef1f7" fill-opacity="0.92" />
+    <rect x="112" y="412" width="190" height="24" rx="12" fill="#5eead4" fill-opacity="0.85" />
+  </g>
+</svg>

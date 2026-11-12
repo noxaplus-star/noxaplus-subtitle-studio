@@ -1,0 +1,43 @@
+{
+  "name": "noxaplus-subtitle-studio",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A privacy-first, Persian-first subtitle workbench by NoxaPlus that runs entirely in your browser.",
+  "author": "NoxaPlus <NoxaPlus2025@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/noxaplus-star/noxaplus-subtitle-studio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noxaplus-star/noxaplus-subtitle-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noxaplus-star/noxaplus-subtitle-studio/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "icons": "node scripts/generate-icons.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/vazirmatn": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.0"
+  }
+}
