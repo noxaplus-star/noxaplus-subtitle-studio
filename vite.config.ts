@@ -5,8 +5,15 @@ import react from '@vitejs/plugin-react';
 function inlineBundle(): Plugin {
   return {
     name: 'noxaplus-inline-bundle',
-    apply: 'build',
     enforce: 'post',
+    transformIndexHtml: {
+      order: 'pre',
+      handler(html, context) {
+        if (!context.server) return html;
+        const entry = `${context.server.config.root.replace(/\/app$/, '')}/src/main.tsx`;
+        return html.replace('src="../src/main.tsx"', `src="/@fs/${entry}"`);
+      },
+    },
     generateBundle(_options, bundle) {
       const page = bundle['index.html'];
       if (!page || page.type !== 'asset') return;
