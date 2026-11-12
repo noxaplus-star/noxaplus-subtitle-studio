@@ -6,6 +6,15 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-12
+
+### Fixed
+
+- Opening root `index.html` directly now loads the complete app instead of the boot message.
+- Embed JavaScript, CSS, and fonts in the production HTML to avoid file-origin module restrictions.
+- Keep the Vite source entry in `app/` and refresh the standalone root entry on every build.
+- Register the service worker only over HTTP(S); document local storage and clipboard limitations.
+
 ## [1.0.0] - 2026-11-12
 
 ### Added

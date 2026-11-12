@@ -1,5 +1,5 @@
 /* NoxaPlus Subtitle Studio — offline shell */
-const VERSION = 'v1';
+const VERSION = 'v1.0.1';
 const CACHE_NAME = `noxaplus-subtitle-studio-${VERSION}`;
 const APP_SHELL = [
   './',

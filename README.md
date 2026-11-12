@@ -181,6 +181,14 @@ Timestamps are integer milliseconds.
 
 ## Quick start
 
+### Open directly — no installation
+
+Download and extract the repository ZIP (or clone it), then double-click **`index.html` in the repository root**. This is the complete standalone application: JavaScript, CSS, and fonts are embedded, so no server, Node.js, or internet connection is required. Do not open `app/index.html`; that is the development source entry.
+
+Clipboard and PWA installation depend on browser support; file downloads still work. Service workers only run over HTTP(S). Browser storage for `file://` URLs varies by browser and file location, so export a project JSON backup before moving the folder or changing browsers. You can also open `dist/index.html` directly after building.
+
+### Develop from source
+
 Requirements: **Node.js 20 or newer** and npm.
 
 ```bash
@@ -197,7 +205,7 @@ Open the printed local URL. No environment variables or services are required.
 | Command | What it does |
 | --- | --- |
 | `npm run dev` | Start the Vite development server. |
-| `npm run build` | Type-check and build the production site into `dist/`. |
+| `npm run build` | Type-check, build the self-contained site into `dist/`, and refresh root `index.html`. |
 | `npm run preview` | Serve the production build locally. |
 | `npm run typecheck` | Run TypeScript without emitting files. |
 | `npm test` | Run the unit test suite once. |
