@@ -1,3 +1,5 @@
+<p align="center"><img src="docs/brand.png" alt="NoxaPlus" width="520"></p>
+
 # NoxaPlus Subtitle Studio
 
 **A privacy-first, Persian-first subtitle workbench that runs entirely in your browser.**

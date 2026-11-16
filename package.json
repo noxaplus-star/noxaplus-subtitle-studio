@@ -1,7 +1,7 @@
 {
   "name": "noxaplus-subtitle-studio",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A privacy-first, Persian-first subtitle workbench by NoxaPlus that runs entirely in your browser.",
   "author": "NoxaPlus <NoxaPlus2025@gmail.com>",
   "license": "MIT",

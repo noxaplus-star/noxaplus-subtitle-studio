@@ -4,6 +4,17 @@ All notable changes to this project are documented here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.2 - 2026-11-16
+
+Brand and headline update.
+
+- The header now shows the original NoxaPlus logo, with a light variant for
+  the dark theme, instead of the product letter mark.
+- The landing headline stays on one line on desktop windows; narrow screens
+  still wrap normally.
+- The README uses the official NoxaPlus brand banner, and version labels read
+  1.0.2.
+
 ## [Unreleased]
 
 ## [1.0.1] - 2026-11-12

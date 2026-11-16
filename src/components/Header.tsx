@@ -1,6 +1,7 @@
 import { useI18n, type Theme } from '../i18n';
 import { Icon } from './Icon';
-import { Logo } from './Logo';
+import markDark from '../assets/mark-dark.png';
+import markLight from '../assets/mark-light.png';
 
 interface HeaderProps {
   theme: Theme;
@@ -34,7 +35,7 @@ export function Header({
   return (
     <header className="header">
       <a className="brand" href="#main" aria-label={t('app.title')}>
-        <Logo size={38} />
+        <span className="brand__logo"><img className="brand__logo-dark" src={markDark} alt="NoxaPlus" /><img className="brand__logo-light" src={markLight} alt="" aria-hidden="true" /></span>
         <span className="brand__text">
           <span className="brand__name">NoxaPlus</span>
           <span className="brand__product">Subtitle Studio</span>
